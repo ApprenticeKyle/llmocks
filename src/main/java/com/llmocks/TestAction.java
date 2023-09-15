@@ -7,7 +7,6 @@ public class TestAction extends AnAction {
 
     @Override
     public void actionPerformed(AnActionEvent e) {
-        // TODO: insert action logic here
         System.out.println("hello world");
     }
 }
