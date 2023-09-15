@@ -1,4 +1,4 @@
-package com.github.apprenticekyle.llmocks
+package com.llmocks
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

@@ -1,9 +1,9 @@
-package com.github.apprenticekyle.llmocks.services
+package com.llmocks.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import com.github.apprenticekyle.llmocks.MyBundle
+import com.llmocks.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {

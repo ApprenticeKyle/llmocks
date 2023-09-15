@@ -1,4 +1,4 @@
-package com.github.apprenticekyle.llmocks.toolWindow
+package com.llmocks.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import com.github.apprenticekyle.llmocks.MyBundle
-import com.github.apprenticekyle.llmocks.services.MyProjectService
+import com.llmocks.MyBundle
+import com.llmocks.services.MyProjectService
 import javax.swing.JButton
 
 
