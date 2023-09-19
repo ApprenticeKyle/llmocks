@@ -19,8 +19,8 @@
     </applicationListeners>
 
     <actions>
-        <action id="$Test" class="com.llmocks.MockAction" text="Generate Mock Data"
-                description="Generate Mock Data">
+        <action id="$Test" class="com.llmocks.MockAction" text="Mock" icon="AllIcons.Actions.Copy"
+                description="Generate mock data">
             <add-to-group group-id="CodeMenu" anchor="first"/>
         </action>
     </actions>
