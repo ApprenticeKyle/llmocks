@@ -5,6 +5,7 @@
     <vendor>apprenticekyle</vendor>
 
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.java</depends>
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
@@ -18,8 +19,9 @@
     </applicationListeners>
 
     <actions>
-        <action id="$Test" class="com.llmocks.TestAction" text="generate mock data" description="生成mock数据">
-            <add-to-group group-id="NewGroup" anchor="first"/>
+        <action id="$Test" class="com.llmocks.MockAction" text="Generate Mock Data"
+                description="Generate Mock Data">
+            <add-to-group group-id="CodeMenu" anchor="first"/>
         </action>
     </actions>
 
