@@ -1,5 +1,11 @@
 package com.llmocks.entity;
 
 
-public class AnnotationContext {
+public class AnnotationContext implements Context {
+
+
+    @Override
+    public String getBody() {
+        return null;
+    }
 }

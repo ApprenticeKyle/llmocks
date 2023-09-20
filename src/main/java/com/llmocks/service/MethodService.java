@@ -6,13 +6,13 @@ import com.intellij.psi.PsiStatement;
 
 public class MethodService {
 
-    public static void parseMethod(PsiMethod method) {
+    public static void parse(PsiMethod method) {
         PsiCodeBlock body = method.getBody();
         if (body == null) {
             return;
         }
         for (PsiStatement statement : body.getStatements()) {
-            StatementService.parseStatement(statement);
+            StatementService.parse(statement);
         }
     }
 }
